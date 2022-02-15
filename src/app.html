@@ -1,0 +1,37 @@
+<template>
+	
+	<lightning-card>
+
+	<div class="app slds-p-around_medium" if:true={visible}>
+		<h1 class="slds-text-heading_large" style="text-align:center">LWC ATIVIDADE 1</h1></br>
+
+
+      <p>cod: {cod}</p>
+			<p>Nome: {name}</p>
+			<p>Phone: {phone}</p>
+			<p>Email: {email}</p>
+			<p>rating: {rating}</p>
+	</div>		
+
+	<div class="slds-m-around_medium" if:false={visible}>
+			<h1 class="slds-text-heading_large" style="text-align:center">
+				Outros Dados
+			</h1>
+			<p>Instagram:
+				<a href={instagram} target="_blank">clique aqui</a>
+			</p>
+			<p>LinkedIN:
+				<a href={linkedin} target="_blank">clique aqui</a>
+			</p>
+			
+			
+
+	</div>
+
+		<lightning-button variant="destructive" label="Trocar Dados" title="Alterar Dados" onclick={alterarDados}
+		class="slds-m-left_x-small"></lightning-button>
+		
+		
+	  </lightning-card>
+  </template>
+

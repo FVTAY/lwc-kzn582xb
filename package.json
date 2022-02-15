@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/fvtay.lwc-kzn582xb",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve E9da3NRVVcAppX485F0Q --open"
+  }
+}
